@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*CONTENEDOR*/
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*TITULO*/
+.titulo {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+/*TABLA*/
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}

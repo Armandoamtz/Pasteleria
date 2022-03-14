@@ -1,0 +1,114 @@
+:root {
+    --primary: rgb(255, 102, 196);
+    --letters: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 0 1.5em;
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+/*TITULOS*/
+.titulo {
+    color: var(--primary);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+}
+
+/*CONTENEDORES*/
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 102, 196, 1);
+    border-radius: 50px;
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+/*FORMULARIO*/
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    font-weight: bold;
+    text-transform: capitalize;    
+}
+
+.block {
+    grid-column: 1 / 3;
+}
+
+.contact-form div {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form div textarea {
+    resize: none;
+}
+
+.contact-form form .datos,
+.contact-form form button,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid var(--primary);
+}
+
+.contact-form form button {
+    background-color: var(--primary);
+    border: none;
+    text-transform: uppercase;
+    color: var(--letters);
+    padding: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*INFORMACION DE LA TIENDA*/
+.info-tienda {
+    display: flex;
+    justify-content: center;
+}
+
+.info-tienda li {
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 25px;
+    list-style: none;
+}
+
+.info-tienda li i {
+    padding-right: 10px;
+    color: var(--primary);
+}
+
+@media (min-width: 360px) and (max-width: 578px) {
+    .titulo {
+        font-size: 2em;
+    }
+    
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+    }
+}
