@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
                 <a href="#sabores">sabores</a>
                 <a href="#adornos">adornos</a>
                 <a href="#pedido">pedido</a>
-                <a href="info-pastelero.html" target="_blank" >pastelero</a>
+                <a href="./pastelero/login.php">pastelero</a>
             </div>
         </nav>
     </header>
@@ -51,6 +51,12 @@
                     <img src="../img/pastel capuchino.png" alt="pastel de capuchino" class="img">pastel capuchino
                     <ul>
                         <li class="precio">$ 420</li>
+                    </ul>
+                </li>
+                <li class="pastel-adornos">
+                    <img src="../img/pastel tres leches.png" alt="pastel de tres leches" class="img">pastel de tres leches
+                    <ul>
+                        <li class="precio">$ 380</li>
                     </ul>
                 </li>
                 <li class="pastel-adornos">
@@ -81,12 +87,6 @@
                     <img src="../img/pastel carlos v.png" alt="pastel de carlos V" class="img">pastel carlos v
                     <ul>
                         <li class="precio">$ 430</li>
-                    </ul>
-                </li>
-                <li class="pastel-adornos">
-                    <img src="../img/pastel tres leches.png" alt="pastel de tres leches" class="img">pastel carlos v
-                    <ul>
-                        <li class="precio">$ 380</li>
                     </ul>
                 </li>
             </ul>
@@ -131,7 +131,7 @@
     <div class="separador">
         <div class="contenedor">
             <div class="enlace" id="pedido">
-                <a href="formulario.html" target="_blank">pedido</a>
+                <a href="formulario.php" target="_blank">pedido</a>
             </div>
         </div>
     </div>
