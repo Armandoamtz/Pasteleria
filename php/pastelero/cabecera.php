@@ -18,7 +18,7 @@ if (isset($_SESSION['user']) != "Pastelero") {
 <body>
     <br>
     <div class="container">
-        <a href="../index.php" class="btn btn-danger">Cerrar sesión</a>
+        <a href="cerrarSesion.php" class="btn btn-danger">Cerrar sesión</a>
     </div>
 </body>
 </html>
